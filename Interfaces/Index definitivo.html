@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home - Ganja World</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script>
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+  </script>
+  <script>
+    $('.popover-dismiss').popover({
+      trigger: 'focus'
+    })
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body bgcolor="black">
+  <!-- NAV -->
+  <div class="fondo">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" class="menu">
+      <a class="navbar-brand" href="#">GANJA</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--Collapse-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Descubre<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Navega</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+
+              <!--Dropdown-->
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <button onclick="location.href='EnConstruccion.html'" class="btn btn-primary" type="button">
+                Comprar</button>
+              <button onclick="location.href='EnConstruccion.html'" class="btn btn-primary" type="button">
+                Consejos</button>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Deshabilitado</a>
+          </li>
+        </ul>
+        <!--PopOver-->
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" data-toggle="popover" title="Búsqueda"
+            data-content="Escribe aqui para buscar" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    </nav>
+    <!-- BREADCRUMB -->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page><a href=">GanjaHome</a></li>
+        <li class="breadcrumb-item"><a href="EnConstruccion.html">Mantenimiento</a></li>
+      </ol>
+    </nav>
+    <!-- CAROUSEL -->
+    <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+      </ol>
+      <!-- /.carousel-item -->
+
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <a href="">
+            <picture>
+              <source srcset="Banner-01.jpg" media="(min-width:  1400px)">
+              <source srcset="Banner-01.jpg" media="(min-width: 769px)">
+              <source srcset="Banner-01.jpg" media="(min-width: 577px)">
+              <img srcset="Banner-01.jpg" alt="responsive image" class="d-block img-fluid">
+            </picture>
+
+            <div class="carousel-caption">
+              <div>
+                <h2>Disfruta del Ganja</h2>
+                <p>Somos meticulosos con el resultado</p>
+
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- /.carousel-item -->
+        <div class="carousel-item">
+          <a href="">
+            <picture>
+              <source srcset="Banner-03.jpg" media="(min-width: 1400px)">
+              <source srcset="Banner-03.jpg" media="(min-width: 769px)">
+              <source srcset="Banner-03.jpg" media="(min-width: 577px)">
+              <img srcset="Banner-03.jpg" alt="responsive image" class="d-block img-fluid">
+            </picture>
+
+            <div class="carousel-caption justify-content-center align-items-center">
+              <div>
+                <h2>Tenemos grandes variedades exoticas</h2>
+                <p>De todos los tipos y colores</p>
+
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- /.carousel-inner -->
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+      <div>
+        <!--Paginacion-->
+        <div class="pagination mt-0">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" data-target="#carousel" data-slide-to="0">1</a></li>
+              <li class="page-item"><a class="page-link" data-target="#carousel" data-slide-to="1">2</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- /.carousel -->
+  </div>
+  </div>
+  <br>
+
+  <!--jumbotron-->
+  <!--input-group-->
+  <div class="jumbotron">
+    <h1 class="display-4">Sorteo!</h1>
+    <p class="lead"> Si quieres participar en nuestro sorteo de un pack x10 semillas de CHIZPA solo tienes que dejar
+      fecha
+      <br> de nacimiento y correo electronico y te diremos si eres el ganador.</p>
+    <hr>
+  </div>
+  <!--embed-->
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/AC30fY-tQbg" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+  </div>
+  <br><br>
+  <div class="ml-2">
+    <div>
+      <div class="input-group w-25">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Correo electronico</span>
+        </div>
+        <input type="text" aria-label="Nombre" class="form-control">
+      </div>
+    </div>
+    <br>
+    <div class="input-group w-25">
+      <div class="input-group-prepend">
+        <span class="input-group-text">Fecha de nacimiento</span>
+      </div>
+      <input type="text" aria-label="dia" class="form-control">
+      <input type="text" aria-label="mes" class="form-control">
+      <input type="text" aria-label="ano" class="form-control">
+    </div><br>
+    <button type="button" class="btn btn-info">Enviar</button>
+    <br>
+    <br>
+    <p>Porcentaje de participaciones disponibles:</p>
+    <!--progress-->
+    <div class="progress w-25">
+      <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0"
+        aria-valuemax="100"></div>
+    </div>
+    <br>
+    <div>
+      <!--ListGroup-->
+      <!--botton-group-->
+      <p>
+        Lista de las mas vendidas 2019
+      </p>
+      <div class="bd-example">
+        <div class="row">
+          <div class="col-4">
+            <div id="list-example" class="list-group">
+              <ul class="list-group w-25">
+                <li class="list-group-item list-group-item-action" href="#list-item-1">Amnesia Haze<span
+                    class="badge badge-secondary">
+                    <h3>WOW</h3>
+                  </span><i class="fa fa-star"></i></li>
+                <li class="list-group-item list-group-item-action" href="#list-item-2">Purple Haze<span
+                    class="badge badge-secondary">
+                    <h3>LOL</h3>
+                  </span></li>
+                <li class="list-group-item list-group-item-action" href="#list-item-3">Banana Split<span
+                    class="badge badge-secondary">
+                    <h3>CHILL</h3>
+                  </span></li>
+              </ul>
+
+            </div>
+          </div>
+          <div class="col-8">
+            <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+              <h4 id="list-item-1">AMNESIA</h4>
+              <p>Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id magna
+                ullamco eu. Do aute ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum
+                incididunt tempor eu consequat enim dolore proident. Qui laborum do non excepteur nulla magna eiusmod
+                consectetur in. Aliqua et aliqua officia quis et incididunt voluptate non anim reprehenderit adipisicing
+                dolore ut consequat deserunt mollit dolore. Aliquip nulla enim veniam non fugiat id cupidatat nulla elit
+                cupidatat commodo velit ut eiusmod cupidatat elit dolore.</p>
+              <h4 id="list-item-2">PURPLE</h4>
+              <p>Quis magna Lorem anim amet ipsum do mollit sit cillum voluptate ex nulla tempor. Laborum consequat non
+                elit enim exercitation cillum aliqua consequat id aliqua. Esse ex consectetur mollit voluptate est in
+                duis laboris ad sit ipsum anim Lorem. Incididunt veniam velit elit elit veniam Lorem aliqua quis ullamco
+                deserunt sit enim elit aliqua esse irure. Laborum nisi sit est tempor laborum mollit labore officia
+                laborum excepteur commodo non commodo dolor excepteur commodo. Ipsum fugiat ex est consectetur ipsum
+                commodo tempor sunt in proident.</p>
+              <h4 id="list-item-3">BANANA</h4>
+              <p>Quis anim sit do amet fugiat dolor velit sit ea ea do reprehenderit culpa duis. Nostrud aliqua ipsum
+                fugiat minim proident occaecat excepteur aliquip culpa aute tempor reprehenderit. Deserunt tempor mollit
+                elit ex pariatur dolore velit fugiat mollit culpa irure ullamco est ex ullamco excepteur.</p>
+
+              <h2>Aqui te dejamos los enlaces directos!</h2>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" onclick="location.href='EnConstruccion.html'"
+                  class="btn btn-secondary">Amnesia</button>
+                <button type="button" onclick="location.href='EnConstruccion.html'"
+                  class="btn btn-secondary">Purple</button>
+                <button type="button" onclick="location.href='EnConstruccion.html'"
+                  class="btn btn-secondary">Banana</button>
+              </div>
+              <br><br>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Media -->
+      <div class="media">
+        <img class="align-self-center mr-3" src="logo.png" alt="Generic placeholder image">
+        <div class="media-body">
+          <h5 class="mt-0">GanjaMagazine</h5>
+          <p>Tenemos ante nosotros a la mejor opcion encuanto a empresas distribuidoras de materiales para el cultivo de
+            cannabis!</p>
+        </div>
+      </div>
+
+      <br><br>
+</body>
+<!-- Footer -->
+<footer id="footer" class="footer-1">
+  <div class="main-footer widgets-dark typo-light">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="widget subscribe no-box">
+            <h5 class="widget-title">Nombre de la compañia<span></span></h5>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">GanjaWorld</th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="widget no-box">
+            <h5 class="widget-title">Quick Links<span></span></h5>
+            <ul class="thumbnail-widget">
+              <li>
+                <div class="thumb-content"><a href="#.">Get Started</a></div>
+              </li>
+              <li>
+                <div class="thumb-content"><a href="#.">Top Leaders</a></div>
+              </li>
+              <li>
+                <div class="thumb-content"><a href="#.">Success Stories</a></div>
+              </li>
+              <li>
+                <div class="thumb-content"><a href="#.">Event/Tickets</a></div>
+              </li>
+              <li>
+                <div class="thumb-content"><a href="#.">News</a></div>
+              </li>
+              <li>
+                <div class="thumb-content"><a href="#.">Lifestyle</a></div>
+              </li>
+              <li>
+                <div class="thumb-content"><a href="#.">About</a></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-3">
+
+          <div class="widget no-box">
+            <h5 class="widget-title">Nuestras redes sociales<span></span></h5>
+            <p><a href="mailto:info@domain.com" title="glorythemes">info@domain.com</a></p>
+            <ul class="social-footer2">
+              <!-- Table -->
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">
+                      <li class=""><a title="youtube" target="_blank" href="https://www.youtube.com/"><img alt="youtube"
+                            width="30" height="30" src=""></a></li>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th scope="col">
+                      <li class=""><a href="https://www.facebook.com/" target="_blank" title="Facebook"><img
+                            alt="Facebook" width="30" height="30" src=""></a></li>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th scope="col">
+                      <li class=""><a href="https://twitter.com" target="_blank" title="Twitter"><img alt="Twitter"
+                            width="30" height="30" src=""></a></li>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th scope="col">
+                      <li class=""><a title="instagram" target="_blank" href="https://www.instagram.com/"><img
+                            alt="instagram" width="30" height="30" src=""></a></li>
+                    </th>
+                  </tr>
+                </thead>
+              </table>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+
+          <h5 class="widget-title">Informacion<span></span></h5>
+          <!-- CARD -->
+          <!-- border -->
+          <div class="card" style="width: 18rem;">
+            <span class="border border-success">
+              <img class="card-img-top" src="contacto.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <font color="black">¿Necesita consejo?
+                </h5>
+                <p class="card-text"> Para cualquier duda tambien puede contactar con nuestros mejores cultivadores.
+                  </font>
+                </p>
+            </span>
+          </div>
+        </div>
+        <br>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+          aria-expanded="false" aria-controls="collapseExample">
+          ¡Contacta con nosotros!
+        </button>
+        <!--collapse-->
+        <!--Validacion-->
+        <div class="collapse" id="collapseExample">
+          <label for="exampleInputEmail1">Correo electronico</label>
+          <div class="form-group">
+            <input type="email" class="form-control w-70" id="exampleInputEmail1" aria-describedby="emailHelp" name=""
+              placeholder="weed@gmail.com">
+            <br>
+            <textarea name="textarea" rows="3" cols="49"
+              placeholder="¡Estamos aqui para cualquier duda! Te responderemos cuanto antes"></textarea>
+            <br>
+            <!--modal and tooltip-->
+
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#mimodal" data-toggle="tooltip"
+              data-placement="bottom" title="Haz clic aquí para enviar">Enviar</button>
+            <div class="modal" id="mimodal" tabindex="-1" role="dialog">
+              <div class="modal-dialog" role="document">
+                <!--alert-->
+                <div class="alert alert-info" role="alert">
+                  ¡Formulario enviado!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+    </div>
+  </div>
+  </div>
+
+  <div class="footer-copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>Copyright Company Name © 2020. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</html>
