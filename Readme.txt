@@ -1,4 +1,4 @@
-El trabajo consiste en una pagina WEB dedicada a la venta de semillas y herramientas para el cultivo de cannabis.
+El trabajo consiste en una pagina WEB dedicada a la venta.
 La pagina esta compuesta por un carrusel, botones, grupos de botones, imagenes, iconos, etc.
 Dentro del mismo HTML esta indicado con comentarios donde esta cada una de las funcionalidades.
 
